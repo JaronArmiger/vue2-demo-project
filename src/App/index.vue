@@ -1,5 +1,8 @@
 <template>
-  <p>what's poopin</p>
+  <div>
+  	<p>what's poopin</p>
+    <github-input></github-input>
+  </div>
 </template>
 <script src='./script.js'></script>
 <style scoped src='./style.css'></style>
