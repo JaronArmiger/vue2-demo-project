@@ -5,6 +5,11 @@
     </p>
     <p v-else>
       Below are the results for {{ currentUsername }}
+      <div v-if='githubData[currentUsername]'>
+      	<h4>{{ githubData[currentUsername].name }}</h4>
+      	<p>{{ githubData[currentUsername].company }}</p>
+      	<p>Number of repos: {{ githubData[currentUsername].public_repos }}</p>
+      </div>
     </p>
   </div>
 </template>
