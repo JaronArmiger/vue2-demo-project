@@ -1,0 +1,1 @@
+demo project in Vue 2 based on https://www.sitepoint.com/up-and-running-vue-js-2-0/
